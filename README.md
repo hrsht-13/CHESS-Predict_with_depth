@@ -8,17 +8,17 @@ The positions of white king and rook are plotted against black King and you have
 ## Dataset
 A KRK dataset was first described in 1977. This dataset is also a KRK dataset, meaning it consists of positions of White King, White Rook, and Black King. In such a scenario if both teams play optimally(Black moves first) the only possible outcomes are either a draw or White King wins. The attributes are :
 
-White King file (column)
+1. White King file (column)
 
-White King rank (row)
+2. White King rank (row)
 
-White Rook file
+3. White Rook file
 
-White Rook rank
+4. White Rook rank
 
-Black King file
+5. Black King file
 
-Black King rank
+6. Black King rank
 
 optimal depth-of-win for White in 0 to 16 moves, otherwise draw(-1) .
 
