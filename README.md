@@ -23,3 +23,9 @@ Black King rank
 optimal depth-of-win for White in 0 to 16 moves, otherwise draw(-1) .
 
 For simplification, positions have been stored in csv file. The train.csv has 7 columns, the last column is the number of moves required to win which is -1 in case of a draw and otherwise between 1-16 the rest 6 columns contain the position of White King and Rook and Black King.
+
+## Evaluation Criteria
+During evaluation Mean Absolute Error and F1 score will be used to test the efficiency of the model.
+
+## LeaderBoard
+https://www.aicrowd.com/challenges/aicrowd-blitz-2/problems/chess/submissions
